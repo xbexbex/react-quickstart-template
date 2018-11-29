@@ -1,0 +1,10 @@
+@import '_colors';
+
+html, body {
+  margin: 0;
+}
+
+body {
+  background-color: $secondary;
+  display: block;
+}
