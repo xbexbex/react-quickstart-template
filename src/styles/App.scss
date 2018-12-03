@@ -1,4 +1,4 @@
-@import '_colors';
+@import '_vars';
 
 html, body {
   margin: 0;
@@ -7,4 +7,5 @@ html, body {
 body {
   background-color: $secondary;
   display: block;
+  font-family: $body_font
 }
