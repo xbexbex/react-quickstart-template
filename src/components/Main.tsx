@@ -11,6 +11,8 @@ export default class Main extends Component {
         return (
             <div className="main-container">
                 <p>Hi</p>
+                <img
+                    src="../src/assets/loading.svg"></img>
             </div>
         )
     }
