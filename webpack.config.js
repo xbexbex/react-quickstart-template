@@ -12,7 +12,13 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.json']
+    extensions: ['.ts', '.tsx', '.js', '.json'],
+    alias: {
+      Utilities: path.resolve(__dirname, 'src/utilities/'),
+      Component: path.resolve(__dirname, 'src/components/'),
+      Assets: path.resolve(__dirname, 'src/assets/'),
+      Styles: path.resolve(__dirname, 'src/styles/'),
+    }
   },
 
   module: {
