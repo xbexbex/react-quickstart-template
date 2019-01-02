@@ -26,4 +26,9 @@ A docker image for this repository can be found [here.](https://cloud.docker.com
 ```shell
 docker run -p 8080:8080 xbexbex/react-webpack-typescript-babel-sass-template
 ```
+### Or building locally
+```shell
+docker build . -t <name-for-the-project>
+docker run <name-for-the-project>
+```
 
