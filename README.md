@@ -19,3 +19,11 @@ npm run build
 ```shell
 npm run type-check
 ```
+
+## Docker  
+A docker image for this repository can be found [here.](https://cloud.docker.com/repository/registry-1.docker.io/xbexbex/react-webpack-typescript-babel-sass-template)  
+### Running and installing
+```shell
+docker run -p 8080:8080 xbexbex/react-webpack-typescript-babel-sass-template
+```
+
