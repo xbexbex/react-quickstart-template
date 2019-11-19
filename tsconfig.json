@@ -9,15 +9,12 @@
     "noUnusedLocals": true,
     "noImplicitAny": true,
     "target": "es2015",
-    "module": "es2015",
+    "module": "esnext",
     "strict": true,
     "jsx": "react",
     "baseUrl": ".",
-    "paths": {
-      "Components/*": ["src/components/*"],
-      "Utilities/*": ["src/utilities/*"],
-      "Constants/*": ["src/constants/*"]
-  }
+    "types": ["react", "node"],
+    "skipLibCheck": true,
   },
   "include": [
     "src/**/*"

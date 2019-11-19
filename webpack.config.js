@@ -24,31 +24,25 @@ module.exports = {
 
   module: {
     rules: [{
-        test: /\.(ts|js)x?$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/
-      },
-      {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      },
-      {
-        test: /\.scss$/,
-        use: [{
-          loader: "style-loader"
-        }, {
-          loader: "css-loader"
-        }, {
-          loader: "sass-loader"
-        }]
-      },
-      {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        use: [
-          'url-loader?limit=10000',
-          'img-loader'
-        ]
-      }
+      test: /\.(ts|js)x?$/,
+      loader: 'babel-loader',
+      exclude: /node_modules/
+    },
+    {
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader']
+    },
+    {
+      test: /\.(jpe?g|gif|png|svg|ttf|woff2?)$/i,
+      use: [
+        {
+          loader: 'url-loader',
+          options: {
+            limit: 10000,
+          },
+        }
+      ]
+    }
     ],
   },
 

@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-import Main from 'Components/Main';
-import 'Styles/App.scss';
+import { ThemeProvider } from 'styled-components';
+
+import { Theme, GlobalStyle } from '../styles';
+import Main from './Main';
 
 export default class App extends Component {
 
   render() {
     return (
-      <Main></Main>
+      <ThemeProvider theme={Theme}>
+        <GlobalStyle />
+        <Main></Main>
+      </ThemeProvider>
     );
   }
 }
