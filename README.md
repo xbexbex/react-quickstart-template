@@ -1,6 +1,6 @@
 # React quickstart template
 
-This is a quick-start react template for fast prototyping. It has type-checking with TypeScript, but will compile regardless of the type errors.
+This is a quickstart react template for fast prototyping. It has type-checking with TypeScript, but will compile regardless of the type errors.
 
 Utilizes Styled Components, Webpack, and Babel.
 
@@ -23,10 +23,10 @@ npm run type-check
 ```
 
 ## Docker  
-A docker image for this repository can be found [here.](https://cloud.docker.com/repository/registry-1.docker.io/xbexbex/react-webpack-typescript-babel-sass-template)  
+A docker image for this repository can be found [here.](https://hub.docker.com/repository/docker/xbexbex/react-quickstart-template)  
 ### Running and installing
 ```shell
-docker run -p 5000:5000 xbexbex/react-webpack-typescript-babel-sass-template
+docker run -p 5000:5000 xbexbex/react-quickstart-template
 ```
 ### Or building locally
 ```shell
