@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:8.16.2-alpine3.9
 
 ADD . /build-files
 
