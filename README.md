@@ -1,6 +1,6 @@
 # React quickstart template
 
-This is a quick-start react template for fast prototyping. It has type-checking with TypeScript, but will compile regardless of the type errors.
+This is a quickstart react template for fast prototyping. It has type-checking with TypeScript, but will compile regardless of the type errors.
 
 Utilizes Styled Components, Webpack, and Babel.
 
