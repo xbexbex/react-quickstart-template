@@ -13,20 +13,20 @@ export default class Main extends Component {
     return (
       <Col>
         <Row>
-          <Square>
+          <Container>
             <Heading>There</Heading>
-          </Square>
-          <Square>
+          </Container>
+          <Container>
             <Heading>is</Heading>
-          </Square>
+          </Container>
         </Row>
         <Row>
-          <Square>
+          <Container>
             <Heading>text.</Heading>
-          </Square>
-          <Square>
+          </Container>
+          <Container>
             <Loading />
-          </Square>
+          </Container>
         </Row>
       </Col>
     )
@@ -46,7 +46,7 @@ const Row: any = styled.div`
   flex: 1;
 `;
 
-const Square: any = styled.div`
+const Container: any = styled.div`
   display: flex;
   flex: 1;
   background-color: ${Theme.color.primary};
@@ -55,6 +55,7 @@ const Square: any = styled.div`
 
 const Heading: any = styled.p`
   color: ${Theme.color.secondary};
+  font-family: ${Theme.font.secondary};
   font-size: 7rem;
   margin: auto;
 `;
