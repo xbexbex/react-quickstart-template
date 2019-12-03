@@ -1,36 +1,32 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 import { Theme } from '../styles';
 
-export default class Main extends Component {
+type Props = {}
 
-  constructor(props: {}) {
-    super(props)
-  }
+const Main: React.FC<Props> = ({ }) => {
 
-  render() {
-    return (
-      <Col>
-        <Row>
-          <Container>
-            <Heading>There</Heading>
-          </Container>
-          <Container>
-            <Heading>is</Heading>
-          </Container>
-        </Row>
-        <Row>
-          <Container>
-            <Heading>text.</Heading>
-          </Container>
-          <Container>
-            <Loading />
-          </Container>
-        </Row>
-      </Col>
-    )
-  }
+  return (
+    <Col>
+      <Row>
+        <Container>
+          <Heading>There</Heading>
+        </Container>
+        <Container>
+          <Heading>is</Heading>
+        </Container>
+      </Row>
+      <Row>
+        <Container>
+          <Heading>text.</Heading>
+        </Container>
+        <Container>
+          <Loading />
+        </Container>
+      </Row>
+    </Col>
+  )
 }
 
 const Col: any = styled.div`
@@ -67,3 +63,5 @@ const Loading: any = styled.img.attrs(() => ({
   width: 10rem;
   margin: auto;
 `;
+
+export default Main;
