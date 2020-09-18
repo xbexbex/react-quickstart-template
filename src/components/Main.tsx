@@ -11,7 +11,7 @@ const Main: React.FC<Props> = ({ }) => {
     <Col>
       <Row>
         <Container>
-          <Heading>There</Heading>
+          <Heading>This</Heading>
         </Container>
         <Container>
           <Heading>is</Heading>
@@ -19,7 +19,7 @@ const Main: React.FC<Props> = ({ }) => {
       </Row>
       <Row>
         <Container>
-          <Heading>text.</Heading>
+          <Heading>a template.</Heading>
         </Container>
         <Container>
           <Loading />
