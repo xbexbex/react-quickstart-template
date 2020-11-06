@@ -7,19 +7,19 @@ Utilizes Styled Components, Webpack, and Babel.
 ### Using development server
 
 ```shell
-npm start
+yarn start
 ```
 
 ### Building
 
 ```shell
-npm run build
+yarn run build
 ```
 
 ### Type-checking
 
 ```shell
-npm run type-check
+yarn run type-check
 ```
 
 ## Docker  
